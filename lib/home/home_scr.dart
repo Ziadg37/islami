@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
             fit: BoxFit.fill),
       ),
       child: Scaffold(
-        backgroundColor: Colors.transparent,
+
         appBar: AppBar(
           title: Text(
             "ISLAMI",
@@ -41,8 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: taps[index],
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: index,
-          selectedItemColor: Colors.white,
-          unselectedItemColor: Colors.black,
+
           iconSize: 35,
           showSelectedLabels: false,
           showUnselectedLabels: false,
