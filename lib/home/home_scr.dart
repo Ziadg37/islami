@@ -70,9 +70,8 @@ class _HomeScreenState extends State<HomeScreen> {
     QuranTap(),
     RadioTap(),
     SebhaTap(),
-    SettingsTap(),
     AhadethTap(),
-
+    SettingsTap(),
 
   ];
 }
